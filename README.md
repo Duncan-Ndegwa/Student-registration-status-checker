@@ -31,11 +31,11 @@ Navigate to the java folder.
 
 Compile:
 
-javac RegistrationChecker.java
+javac StudentRegistration.java
 
 Run:
 
-java RegistrationChecker
+java StudentRegistration
 
 ---
 
@@ -43,7 +43,7 @@ java RegistrationChecker
 
 Navigate to the javascript folder and run:
 
-node registrationChecker.js
+node studentRegistration.js
 
 ---
 
@@ -53,7 +53,7 @@ Navigate to the c folder.
 
 Compile:
 
-gcc registration_checker.c -o checker
+gcc student_registration.c -o checker
 
 Run:
 
