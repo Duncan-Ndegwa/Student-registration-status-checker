@@ -1,19 +1,72 @@
-# Student-registration-status-checker
+# Student Registration Status Checker
 
-## Project Purpose
+## Project Overview
 
-This project demonstrates how the same programming problem can be implemented in four different programming languages:
+This project demonstrates how the **same programming problem** can be implemented in four different programming languages:
 
 - Python
 - Java
 - JavaScript
 - C
 
-The program prompts the user for a student name and the number of registered units. If the number of units exceeds 7, the system indicates that overload approval is required. Otherwise, the registration is accepted.
+The goal of the project is to compare how each language expresses the same logic while highlighting differences in **syntax, structure, and programming style**.
 
-This project demonstrates the differences in syntax, structure, and programming style across languages while solving the same logical problem.
+The program simulates a simple **university course registration rule**.
+
+A student enters:
+- their **name**
+- the **number of registered units**
+
+The program then checks:
+
+- If the number of units is **greater than 7**, the program displays  
+  **"Overload - Approval Required"**
+
+- Otherwise, the program displays  
+  **"Registration Accepted"**
+
+Finally, the program prints a **summary** showing the student's name, registered units, and registration status.
 
 ---
+
+# Project Structure
+
+The repository is organized so that **each programming language has its own folder**.
+
+Student-registration-status-checker
+│
+├── python
+│ └── registration_checker.py
+│
+├── java
+│ └── RegistrationChecker.java
+│
+├── javascript
+│ └── registrationChecker.js
+│
+├── c
+│ └── registration_checker.c
+│
+├── README.md
+└── comparison.md
+
+
+This structure makes the project easy to navigate and allows readers to quickly compare how the same program is written in different languages.
+
+---
+
+# Program Logic
+
+The logic used in each implementation follows these steps:
+
+1. Prompt the user to enter the **student name**
+2. Prompt the user to enter the **number of registered units**
+3. Check if the number of units is greater than **7**
+4. Display the appropriate registration message
+5. Print a **registration summary**
+
+---
+
 
 ## How to Run Each Version
 
@@ -61,12 +114,34 @@ Run:
 
 ---
 
-## What This Project Demonstrates
 
-This project demonstrates:
+---
 
-- Differences in language syntax
-- Static vs dynamic typing
-- Differences in program structure
+# What This Project Demonstrates
+
+This project highlights several important programming concepts:
+
+- Implementing the **same algorithm in multiple programming languages**
+- Understanding differences in **syntax and program structure**
+- Understanding differences between **compiled and interpreted languages**
+- Understanding **static vs dynamic typing**
+
+It also demonstrates how developers choose programming languages based on **the needs of a particular problem**.
+
+---
+
+# Educational Purpose
+
+This project was developed as part of a **Comparative Programming Exercise** in a programming languages course.
+
+Its purpose is to help students understand that programming is not only about syntax, but about understanding **core programming concepts that apply across many languages**.
+
+---
+
+# Author
+
+Name: Duncan Ndegwa  
+Course: Fundamentals of Programming Languages  
+Project: Comparative Programming Exercise
 - How the same logic is implemented across multiple languages
 - The importance of comparative programming study
