@@ -32,24 +32,24 @@ Finally, the program prints a **summary** showing the student's name, registered
 # Project Structure
 
 The repository is organized so that **each programming language has its own folder**.
-
-Student-registration-status-checker
+'''
+Student-registration-status-checker/
 │
-├── python
+├── python/
 │ └── registration_checker.py
 │
-├── java
+├── java/
 │ └── RegistrationChecker.java
 │
-├── javascript
+├── javascript/
 │ └── registrationChecker.js
 │
-├── c
+├── c/
 │ └── registration_checker.c
 │
 ├── README.md
 └── comparison.md
-
+'''
 
 This structure makes the project easy to navigate and allows readers to quickly compare how the same program is written in different languages.
 
