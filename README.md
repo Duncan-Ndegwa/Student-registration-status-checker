@@ -34,6 +34,20 @@ Finally, the program prints a **summary** showing the student's name, registered
 The repository is organized so that **each programming language has its own folder**.
 This structure makes the project easy to navigate and allows readers to quickly compare how the same program is written in different languages.
 
+```
+student-registration/
+├── README.md
+├── comparison.md
+├── python/
+│   └── student_registration.py
+├── java/
+│   └── StudentRegistration.java
+├── javascript/
+│   └── studentRegistration.js
+└── c/
+    └── student_registration.c
+```
+
 ---
 
 # Program Logic
